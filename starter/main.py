@@ -15,6 +15,14 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
     os.system("rm -r .dvc .apt/usr/lib/dvc")
 
 
+model_pth = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), 'model/model.pickle')
+encoder_pth = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), 'model/encoder.pickle')
+lb_pth = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), 'model/lb.pickle')
+
+
 class DataItem(BaseModel):
     age: int
     workclass: str
@@ -53,9 +61,10 @@ class DataItem(BaseModel):
         }
     }
 
-model = pickle.load(open("starter/model/model.pickle", "rb")) 
-encoder = pickle.load(open("starter/model/encoder.pickle", "rb")) 
-lb = pickle.load(open("starter/model/lb.pickle", "rb")) 
+model = pickle.load(open(model_pth, 'rb'))
+encoder = pickle.load(open(encoder_pth, 'rb'))
+lb = pickle.load(open(lb_pth, 'rb'))
+
 
 cat_features = [
     "workclass",
