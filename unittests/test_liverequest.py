@@ -1,8 +1,9 @@
 import requests
+import json
 
 url = "https://udacity3-prediction.herokuapp.com/inference"
 
-data = {
+payload = {
     'age': 34,
     'workclass': 'Private',
     'fnlgt': 245487,
@@ -20,7 +21,7 @@ data = {
     'salary': '<=50K'
 }
 
-r = requests.post(url, json=data)
+r = requests.post(url, data=json.dumps(payload))
 
 print(f'Status code: {r.status_code}')
 assert r.status_code == 200
