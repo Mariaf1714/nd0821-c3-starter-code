@@ -16,7 +16,7 @@ def client():
 def test_welcome(client):
     r = client.get("/")
     assert r.status_code == 200
-    assert r.json() == {"greeting": "Hello World!"}
+    assert r.json() == {"greeting": "Welcome!"}
 
 def test_positive_inference(client):
     item = {
