@@ -16,11 +16,11 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
 
 
 model_pth = os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), 'model/model.pickle.dvc')
+    os.path.abspath(__file__)), 'model/model.pickle')
 encoder_pth = os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), 'model/encoder.pickle.dvc')
+    os.path.abspath(__file__)), 'model/encoder.pickle')
 lb_pth = os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), 'model/lb.pickle.dvc')
+    os.path.abspath(__file__)), 'model/lb.pickle')
 
 
 class DataItem(BaseModel):
