@@ -1,0 +1,4 @@
+outs:
+- md5: 68801897ceacda204917a9047a6e390d
+  size: 1738020
+  path: model.pickle
