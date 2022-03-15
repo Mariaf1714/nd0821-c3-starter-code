@@ -1,3 +1,4 @@
+from xgboost.sklearn import XGBClassifier
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 
 
@@ -17,8 +18,13 @@ def train_model(X_train, y_train):
     model
         Trained machine learning model.
     """
+    model = XGBClassifier(
+        n_estimators=500,
+        seed=42
+    )
+    model.fit(X_train, y_train)
 
-    pass
+    return model
 
 
 def compute_model_metrics(y, preds):
@@ -57,4 +63,6 @@ def inference(model, X):
     preds : np.array
         Predictions from the model.
     """
-    pass
+    preds = model.predict(X)
+
+    return preds

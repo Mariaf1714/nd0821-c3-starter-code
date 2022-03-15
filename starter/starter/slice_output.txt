@@ -1,0 +1,1393 @@
+Feature: workclass
+Class: Private
+Private precision: 0.7151
+Private recall: 0.6472
+Private fbeta: 0.6795
+
+
+Feature: workclass
+Class: ?
+? precision: 0.5625
+? recall: 0.4615
+? fbeta: 0.5070
+
+
+Feature: workclass
+Class: State-gov
+State-gov precision: 0.7000
+State-gov recall: 0.7000
+State-gov fbeta: 0.7000
+
+
+Feature: workclass
+Class: Local-gov
+Local-gov precision: 0.7670
+Local-gov recall: 0.6810
+Local-gov fbeta: 0.7215
+
+
+Feature: workclass
+Class: Federal-gov
+Federal-gov precision: 0.6952
+Federal-gov recall: 0.8391
+Federal-gov fbeta: 0.7604
+
+
+Feature: workclass
+Class: Self-emp-not-inc
+Self-emp-not-inc precision: 0.6897
+Self-emp-not-inc recall: 0.5369
+Self-emp-not-inc fbeta: 0.6038
+
+
+Feature: workclass
+Class: Self-emp-inc
+Self-emp-inc precision: 0.8438
+Self-emp-inc recall: 0.7770
+Self-emp-inc fbeta: 0.8090
+
+
+Feature: workclass
+Class: Without-pay
+Without-pay precision: 0.0000
+Without-pay recall: 1.0000
+Without-pay fbeta: 0.0000
+
+
+Feature: workclass
+Class: Never-worked
+Never-worked precision: 1.0000
+Never-worked recall: 1.0000
+Never-worked fbeta: 1.0000
+
+
+Feature: education
+Class: HS-grad
+HS-grad precision: 0.5979
+HS-grad recall: 0.3520
+HS-grad fbeta: 0.4431
+
+
+Feature: education
+Class: Masters
+Masters precision: 0.8201
+Masters recall: 0.8073
+Masters fbeta: 0.8136
+
+
+Feature: education
+Class: Some-college
+Some-college precision: 0.6279
+Some-college recall: 0.5724
+Some-college fbeta: 0.5989
+
+
+Feature: education
+Class: 11th
+11th precision: 0.8889
+11th recall: 0.6667
+11th fbeta: 0.7619
+
+
+Feature: education
+Class: Bachelors
+Bachelors precision: 0.7390
+Bachelors recall: 0.8233
+Bachelors fbeta: 0.7789
+
+
+Feature: education
+Class: Assoc-voc
+Assoc-voc precision: 0.7286
+Assoc-voc recall: 0.7183
+Assoc-voc fbeta: 0.7234
+
+
+Feature: education
+Class: Assoc-acdm
+Assoc-acdm precision: 0.6512
+Assoc-acdm recall: 0.5714
+Assoc-acdm fbeta: 0.6087
+
+
+Feature: education
+Class: 5th-6th
+5th-6th precision: 1.0000
+5th-6th recall: 0.0000
+5th-6th fbeta: 0.0000
+
+
+Feature: education
+Class: 10th
+10th precision: 0.8750
+10th recall: 0.4667
+10th fbeta: 0.6087
+
+
+Feature: education
+Class: 7th-8th
+7th-8th precision: 0.5000
+7th-8th recall: 0.7500
+7th-8th fbeta: 0.6000
+
+
+Feature: education
+Class: Prof-school
+Prof-school precision: 0.8889
+Prof-school recall: 0.8980
+Prof-school fbeta: 0.8934
+
+
+Feature: education
+Class: 9th
+9th precision: 1.0000
+9th recall: 0.0000
+9th fbeta: 0.0000
+
+
+Feature: education
+Class: Doctorate
+Doctorate precision: 0.8276
+Doctorate recall: 0.8727
+Doctorate fbeta: 0.8496
+
+
+Feature: education
+Class: 1st-4th
+1st-4th precision: 1.0000
+1st-4th recall: 1.0000
+1st-4th fbeta: 1.0000
+
+
+Feature: education
+Class: 12th
+12th precision: 0.7500
+12th recall: 0.3750
+12th fbeta: 0.5000
+
+
+Feature: education
+Class: Preschool
+Preschool precision: 1.0000
+Preschool recall: 1.0000
+Preschool fbeta: 1.0000
+
+
+Feature: marital-status
+Class: Never-married
+Never-married precision: 0.8028
+Never-married recall: 0.5534
+Never-married fbeta: 0.6552
+
+
+Feature: marital-status
+Class: Married-civ-spouse
+Married-civ-spouse precision: 0.7179
+Married-civ-spouse recall: 0.6864
+Married-civ-spouse fbeta: 0.7018
+
+
+Feature: marital-status
+Class: Divorced
+Divorced precision: 0.7636
+Divorced recall: 0.4667
+Divorced fbeta: 0.5793
+
+
+Feature: marital-status
+Class: Separated
+Separated precision: 0.5000
+Separated recall: 0.5000
+Separated fbeta: 0.5000
+
+
+Feature: marital-status
+Class: Married-spouse-absent
+Married-spouse-absent precision: 1.0000
+Married-spouse-absent recall: 0.0000
+Married-spouse-absent fbeta: 0.0000
+
+
+Feature: marital-status
+Class: Widowed
+Widowed precision: 0.7857
+Widowed recall: 0.5500
+Widowed fbeta: 0.6471
+
+
+Feature: marital-status
+Class: Married-AF-spouse
+Married-AF-spouse precision: 0.0000
+Married-AF-spouse recall: 0.0000
+Married-AF-spouse fbeta: 0.0000
+
+
+Feature: occupation
+Class: Adm-clerical
+Adm-clerical precision: 0.5652
+Adm-clerical recall: 0.5361
+Adm-clerical fbeta: 0.5503
+
+
+Feature: occupation
+Class: ?
+? precision: 0.5625
+? recall: 0.4615
+? fbeta: 0.5070
+
+
+Feature: occupation
+Class: Prof-specialty
+Prof-specialty precision: 0.7634
+Prof-specialty recall: 0.8065
+Prof-specialty fbeta: 0.7843
+
+
+Feature: occupation
+Class: Exec-managerial
+Exec-managerial precision: 0.7608
+Exec-managerial recall: 0.8196
+Exec-managerial fbeta: 0.7891
+
+
+Feature: occupation
+Class: Other-service
+Other-service precision: 0.2222
+Other-service recall: 0.0909
+Other-service fbeta: 0.1290
+
+
+Feature: occupation
+Class: Sales
+Sales precision: 0.7814
+Sales recall: 0.7079
+Sales fbeta: 0.7429
+
+
+Feature: occupation
+Class: Transport-moving
+Transport-moving precision: 0.5238
+Transport-moving recall: 0.3667
+Transport-moving fbeta: 0.4314
+
+
+Feature: occupation
+Class: Handlers-cleaners
+Handlers-cleaners precision: 0.7143
+Handlers-cleaners recall: 0.3571
+Handlers-cleaners fbeta: 0.4762
+
+
+Feature: occupation
+Class: Farming-fishing
+Farming-fishing precision: 0.6667
+Farming-fishing recall: 0.3158
+Farming-fishing fbeta: 0.4286
+
+
+Feature: occupation
+Class: Machine-op-inspct
+Machine-op-inspct precision: 0.6111
+Machine-op-inspct recall: 0.2683
+Machine-op-inspct fbeta: 0.3729
+
+
+Feature: occupation
+Class: Tech-support
+Tech-support precision: 0.7358
+Tech-support recall: 0.7500
+Tech-support fbeta: 0.7429
+
+
+Feature: occupation
+Class: Craft-repair
+Craft-repair precision: 0.6585
+Craft-repair recall: 0.3971
+Craft-repair fbeta: 0.4954
+
+
+Feature: occupation
+Class: Protective-serv
+Protective-serv precision: 0.6970
+Protective-serv recall: 0.6053
+Protective-serv fbeta: 0.6479
+
+
+Feature: occupation
+Class: Priv-house-serv
+Priv-house-serv precision: 1.0000
+Priv-house-serv recall: 1.0000
+Priv-house-serv fbeta: 1.0000
+
+
+Feature: occupation
+Class: Armed-Forces
+Armed-Forces precision: 1.0000
+Armed-Forces recall: 1.0000
+Armed-Forces fbeta: 1.0000
+
+
+Feature: relationship
+Class: Own-child
+Own-child precision: 0.7143
+Own-child recall: 0.3333
+Own-child fbeta: 0.4545
+
+
+Feature: relationship
+Class: Husband
+Husband precision: 0.7267
+Husband recall: 0.6899
+Husband fbeta: 0.7078
+
+
+Feature: relationship
+Class: Not-in-family
+Not-in-family precision: 0.7909
+Not-in-family recall: 0.5029
+Not-in-family fbeta: 0.6148
+
+
+Feature: relationship
+Class: Other-relative
+Other-relative precision: 0.5000
+Other-relative recall: 0.2500
+Other-relative fbeta: 0.3333
+
+
+Feature: relationship
+Class: Wife
+Wife precision: 0.6538
+Wife recall: 0.6800
+Wife fbeta: 0.6667
+
+
+Feature: relationship
+Class: Unmarried
+Unmarried precision: 0.6875
+Unmarried recall: 0.5238
+Unmarried fbeta: 0.5946
+
+
+Feature: race
+Class: White
+White precision: 0.7188
+White recall: 0.6671
+White fbeta: 0.6920
+
+
+Feature: race
+Class: Black
+Black precision: 0.7586
+Black recall: 0.5366
+Black fbeta: 0.6286
+
+
+Feature: race
+Class: Amer-Indian-Eskimo
+Amer-Indian-Eskimo precision: 0.7143
+Amer-Indian-Eskimo recall: 0.7143
+Amer-Indian-Eskimo fbeta: 0.7143
+
+
+Feature: race
+Class: Asian-Pac-Islander
+Asian-Pac-Islander precision: 0.7750
+Asian-Pac-Islander recall: 0.6739
+Asian-Pac-Islander fbeta: 0.7209
+
+
+Feature: race
+Class: Other
+Other precision: 1.0000
+Other recall: 0.2857
+Other fbeta: 0.4444
+
+
+Feature: sex
+Class: Female
+Female precision: 0.6916
+Female recall: 0.6116
+Female fbeta: 0.6491
+
+
+Feature: sex
+Class: Male
+Male precision: 0.7279
+Male recall: 0.6677
+Male fbeta: 0.6965
+
+
+Feature: native-country
+Class: United-States
+United-States precision: 0.7211
+United-States recall: 0.6575
+United-States fbeta: 0.6878
+
+
+Feature: native-country
+Class: Germany
+Germany precision: 0.7500
+Germany recall: 0.8182
+Germany fbeta: 0.7826
+
+
+Feature: native-country
+Class: Cuba
+Cuba precision: 1.0000
+Cuba recall: 1.0000
+Cuba fbeta: 1.0000
+
+
+Feature: native-country
+Class: Ireland
+Ireland precision: 1.0000
+Ireland recall: 1.0000
+Ireland fbeta: 1.0000
+
+
+Feature: native-country
+Class: Mexico
+Mexico precision: 1.0000
+Mexico recall: 0.4286
+Mexico fbeta: 0.6000
+
+
+Feature: native-country
+Class: Italy
+Italy precision: 0.3333
+Italy recall: 0.5000
+Italy fbeta: 0.4000
+
+
+Feature: native-country
+Class: Thailand
+Thailand precision: 1.0000
+Thailand recall: 0.0000
+Thailand fbeta: 0.0000
+
+
+Feature: native-country
+Class: Outlying-US(Guam-USVI-etc)
+Outlying-US(Guam-USVI-etc) precision: 1.0000
+Outlying-US(Guam-USVI-etc) recall: 1.0000
+Outlying-US(Guam-USVI-etc) fbeta: 1.0000
+
+
+Feature: native-country
+Class: Canada
+Canada precision: 0.6667
+Canada recall: 0.8571
+Canada fbeta: 0.7500
+
+
+Feature: native-country
+Class: ?
+? precision: 0.6552
+? recall: 0.7917
+? fbeta: 0.7170
+
+
+Feature: native-country
+Class: Philippines
+Philippines precision: 0.8889
+Philippines recall: 0.8889
+Philippines fbeta: 0.8889
+
+
+Feature: native-country
+Class: Hong
+Hong precision: 1.0000
+Hong recall: 0.0000
+Hong fbeta: 0.0000
+
+
+Feature: native-country
+Class: Vietnam
+Vietnam precision: 0.0000
+Vietnam recall: 1.0000
+Vietnam fbeta: 0.0000
+
+
+Feature: native-country
+Class: Dominican-Republic
+Dominican-Republic precision: 1.0000
+Dominican-Republic recall: 1.0000
+Dominican-Republic fbeta: 1.0000
+
+
+Feature: native-country
+Class: Poland
+Poland precision: 1.0000
+Poland recall: 0.5000
+Poland fbeta: 0.6667
+
+
+Feature: native-country
+Class: Haiti
+Haiti precision: 1.0000
+Haiti recall: 1.0000
+Haiti fbeta: 1.0000
+
+
+Feature: native-country
+Class: France
+France precision: 1.0000
+France recall: 0.8000
+France fbeta: 0.8889
+
+
+Feature: native-country
+Class: England
+England precision: 0.6000
+England recall: 0.3750
+England fbeta: 0.4615
+
+
+Feature: native-country
+Class: South
+South precision: 1.0000
+South recall: 0.2000
+South fbeta: 0.3333
+
+
+Feature: native-country
+Class: Iran
+Iran precision: 0.6667
+Iran recall: 1.0000
+Iran fbeta: 0.8000
+
+
+Feature: native-country
+Class: Portugal
+Portugal precision: 1.0000
+Portugal recall: 1.0000
+Portugal fbeta: 1.0000
+
+
+Feature: native-country
+Class: Japan
+Japan precision: 0.5000
+Japan recall: 0.2500
+Japan fbeta: 0.3333
+
+
+Feature: native-country
+Class: India
+India precision: 1.0000
+India recall: 0.8889
+India fbeta: 0.9412
+
+
+Feature: native-country
+Class: Nicaragua
+Nicaragua precision: 1.0000
+Nicaragua recall: 1.0000
+Nicaragua fbeta: 1.0000
+
+
+Feature: native-country
+Class: Puerto-Rico
+Puerto-Rico precision: 0.5000
+Puerto-Rico recall: 1.0000
+Puerto-Rico fbeta: 0.6667
+
+
+Feature: native-country
+Class: Peru
+Peru precision: 1.0000
+Peru recall: 1.0000
+Peru fbeta: 1.0000
+
+
+Feature: native-country
+Class: El-Salvador
+El-Salvador precision: 1.0000
+El-Salvador recall: 1.0000
+El-Salvador fbeta: 1.0000
+
+
+Feature: native-country
+Class: China
+China precision: 0.2500
+China recall: 1.0000
+China fbeta: 0.4000
+
+
+Feature: native-country
+Class: Jamaica
+Jamaica precision: 1.0000
+Jamaica recall: 0.2500
+Jamaica fbeta: 0.4000
+
+
+Feature: native-country
+Class: Taiwan
+Taiwan precision: 1.0000
+Taiwan recall: 0.5000
+Taiwan fbeta: 0.6667
+
+
+Feature: native-country
+Class: Columbia
+Columbia precision: 1.0000
+Columbia recall: 0.0000
+Columbia fbeta: 0.0000
+
+
+Feature: native-country
+Class: Cambodia
+Cambodia precision: 1.0000
+Cambodia recall: 1.0000
+Cambodia fbeta: 1.0000
+
+
+Feature: native-country
+Class: Guatemala
+Guatemala precision: 0.0000
+Guatemala recall: 1.0000
+Guatemala fbeta: 0.0000
+
+
+Feature: native-country
+Class: Ecuador
+Ecuador precision: 1.0000
+Ecuador recall: 0.0000
+Ecuador fbeta: 0.0000
+
+
+Feature: native-country
+Class: Yugoslavia
+Yugoslavia precision: 1.0000
+Yugoslavia recall: 0.5000
+Yugoslavia fbeta: 0.6667
+
+
+Feature: native-country
+Class: Laos
+Laos precision: 0.0000
+Laos recall: 1.0000
+Laos fbeta: 0.0000
+
+
+Feature: native-country
+Class: Greece
+Greece precision: 0.6667
+Greece recall: 0.6667
+Greece fbeta: 0.6667
+
+
+Feature: native-country
+Class: Scotland
+Scotland precision: 1.0000
+Scotland recall: 0.0000
+Scotland fbeta: 0.0000
+
+
+Feature: native-country
+Class: Hungary
+Hungary precision: 1.0000
+Hungary recall: 1.0000
+Hungary fbeta: 1.0000
+
+
+Feature: native-country
+Class: Honduras
+Honduras precision: 1.0000
+Honduras recall: 1.0000
+Honduras fbeta: 1.0000
+
+
+Feature: workclass
+Class: Self-emp-not-inc
+Self-emp-not-inc precision: 0.7212
+Self-emp-not-inc recall: 0.5208
+Self-emp-not-inc fbeta: 0.6048
+
+
+Feature: workclass
+Class: Local-gov
+Local-gov precision: 0.7982
+Local-gov recall: 0.7632
+Local-gov fbeta: 0.7803
+
+
+Feature: workclass
+Class: Private
+Private precision: 0.7425
+Private recall: 0.6447
+Private fbeta: 0.6902
+
+
+Feature: workclass
+Class: ?
+? precision: 0.7407
+? recall: 0.4762
+? fbeta: 0.5797
+
+
+Feature: workclass
+Class: State-gov
+State-gov precision: 0.8939
+State-gov recall: 0.6705
+State-gov fbeta: 0.7662
+
+
+Feature: workclass
+Class: Self-emp-inc
+Self-emp-inc precision: 0.8043
+Self-emp-inc recall: 0.8409
+Self-emp-inc fbeta: 0.8222
+
+
+Feature: workclass
+Class: Federal-gov
+Federal-gov precision: 0.7386
+Federal-gov recall: 0.7647
+Federal-gov fbeta: 0.7514
+
+
+Feature: workclass
+Class: Without-pay
+Without-pay precision: 1.0000
+Without-pay recall: 1.0000
+Without-pay fbeta: 1.0000
+
+
+Feature: education
+Class: Assoc-acdm
+Assoc-acdm precision: 0.7400
+Assoc-acdm recall: 0.7115
+Assoc-acdm fbeta: 0.7255
+
+
+Feature: education
+Class: HS-grad
+HS-grad precision: 0.6729
+HS-grad recall: 0.4444
+HS-grad fbeta: 0.5353
+
+
+Feature: education
+Class: Bachelors
+Bachelors precision: 0.7648
+Bachelors recall: 0.7500
+Bachelors fbeta: 0.7573
+
+
+Feature: education
+Class: Some-college
+Some-college precision: 0.7112
+Some-college recall: 0.5631
+Some-college fbeta: 0.6286
+
+
+Feature: education
+Class: 12th
+12th precision: 0.2000
+12th recall: 1.0000
+12th fbeta: 0.3333
+
+
+Feature: education
+Class: Masters
+Masters precision: 0.8122
+Masters recall: 0.8692
+Masters fbeta: 0.8397
+
+
+Feature: education
+Class: Prof-school
+Prof-school precision: 0.8810
+Prof-school recall: 0.9136
+Prof-school fbeta: 0.8970
+
+
+Feature: education
+Class: 7th-8th
+7th-8th precision: 0.7500
+7th-8th recall: 0.4286
+7th-8th fbeta: 0.5455
+
+
+Feature: education
+Class: Doctorate
+Doctorate precision: 0.8448
+Doctorate recall: 0.8167
+Doctorate fbeta: 0.8305
+
+
+Feature: education
+Class: 10th
+10th precision: 0.5000
+10th recall: 0.1333
+10th fbeta: 0.2105
+
+
+Feature: education
+Class: 11th
+11th precision: 1.0000
+11th recall: 0.5000
+11th fbeta: 0.6667
+
+
+Feature: education
+Class: 9th
+9th precision: 1.0000
+9th recall: 0.5000
+9th fbeta: 0.6667
+
+
+Feature: education
+Class: Assoc-voc
+Assoc-voc precision: 0.7833
+Assoc-voc recall: 0.5802
+Assoc-voc fbeta: 0.6667
+
+
+Feature: education
+Class: 5th-6th
+5th-6th precision: 1.0000
+5th-6th recall: 0.5000
+5th-6th fbeta: 0.6667
+
+
+Feature: education
+Class: Preschool
+Preschool precision: 1.0000
+Preschool recall: 1.0000
+Preschool fbeta: 1.0000
+
+
+Feature: education
+Class: 1st-4th
+1st-4th precision: 1.0000
+1st-4th recall: 0.0000
+1st-4th fbeta: 0.0000
+
+
+Feature: marital-status
+Class: Divorced
+Divorced precision: 0.8095
+Divorced recall: 0.5100
+Divorced fbeta: 0.6258
+
+
+Feature: marital-status
+Class: Married-civ-spouse
+Married-civ-spouse precision: 0.7594
+Married-civ-spouse recall: 0.6879
+Married-civ-spouse fbeta: 0.7219
+
+
+Feature: marital-status
+Class: Never-married
+Never-married precision: 0.6610
+Never-married recall: 0.4643
+Never-married fbeta: 0.5455
+
+
+Feature: marital-status
+Class: Separated
+Separated precision: 0.8889
+Separated recall: 0.8000
+Separated fbeta: 0.8421
+
+
+Feature: marital-status
+Class: Married-spouse-absent
+Married-spouse-absent precision: 0.7500
+Married-spouse-absent recall: 0.7500
+Married-spouse-absent fbeta: 0.7500
+
+
+Feature: marital-status
+Class: Widowed
+Widowed precision: 0.7500
+Widowed recall: 0.3913
+Widowed fbeta: 0.5143
+
+
+Feature: marital-status
+Class: Married-AF-spouse
+Married-AF-spouse precision: 1.0000
+Married-AF-spouse recall: 0.0000
+Married-AF-spouse fbeta: 0.0000
+
+
+Feature: occupation
+Class: Sales
+Sales precision: 0.6986
+Sales recall: 0.6000
+Sales fbeta: 0.6456
+
+
+Feature: occupation
+Class: Other-service
+Other-service precision: 0.3846
+Other-service recall: 0.2174
+Other-service fbeta: 0.2778
+
+
+Feature: occupation
+Class: Exec-managerial
+Exec-managerial precision: 0.7950
+Exec-managerial recall: 0.7808
+Exec-managerial fbeta: 0.7878
+
+
+Feature: occupation
+Class: Craft-repair
+Craft-repair precision: 0.6512
+Craft-repair recall: 0.4444
+Craft-repair fbeta: 0.5283
+
+
+Feature: occupation
+Class: ?
+? precision: 0.7407
+? recall: 0.4762
+? fbeta: 0.5797
+
+
+Feature: occupation
+Class: Handlers-cleaners
+Handlers-cleaners precision: 1.0000
+Handlers-cleaners recall: 0.0526
+Handlers-cleaners fbeta: 0.1000
+
+
+Feature: occupation
+Class: Machine-op-inspct
+Machine-op-inspct precision: 0.6562
+Machine-op-inspct recall: 0.4118
+Machine-op-inspct fbeta: 0.5060
+
+
+Feature: occupation
+Class: Adm-clerical
+Adm-clerical precision: 0.7273
+Adm-clerical recall: 0.5950
+Adm-clerical fbeta: 0.6545
+
+
+Feature: occupation
+Class: Prof-specialty
+Prof-specialty precision: 0.8044
+Prof-specialty recall: 0.8022
+Prof-specialty fbeta: 0.8033
+
+
+Feature: occupation
+Class: Transport-moving
+Transport-moving precision: 0.6410
+Transport-moving recall: 0.4098
+Transport-moving fbeta: 0.5000
+
+
+Feature: occupation
+Class: Tech-support
+Tech-support precision: 0.7679
+Tech-support recall: 0.8113
+Tech-support fbeta: 0.7890
+
+
+Feature: occupation
+Class: Armed-Forces
+Armed-Forces precision: 1.0000
+Armed-Forces recall: 1.0000
+Armed-Forces fbeta: 1.0000
+
+
+Feature: occupation
+Class: Farming-fishing
+Farming-fishing precision: 0.8182
+Farming-fishing recall: 0.7200
+Farming-fishing fbeta: 0.7660
+
+
+Feature: occupation
+Class: Protective-serv
+Protective-serv precision: 0.8611
+Protective-serv recall: 0.7381
+Protective-serv fbeta: 0.7949
+
+
+Feature: occupation
+Class: Priv-house-serv
+Priv-house-serv precision: 1.0000
+Priv-house-serv recall: 1.0000
+Priv-house-serv fbeta: 1.0000
+
+
+Feature: relationship
+Class: Not-in-family
+Not-in-family precision: 0.7395
+Not-in-family recall: 0.5570
+Not-in-family fbeta: 0.6354
+
+
+Feature: relationship
+Class: Husband
+Husband precision: 0.7578
+Husband recall: 0.6955
+Husband fbeta: 0.7253
+
+
+Feature: relationship
+Class: Own-child
+Own-child precision: 0.7500
+Own-child recall: 0.2857
+Own-child fbeta: 0.4138
+
+
+Feature: relationship
+Class: Unmarried
+Unmarried precision: 0.7600
+Unmarried recall: 0.4043
+Unmarried fbeta: 0.5278
+
+
+Feature: relationship
+Class: Wife
+Wife precision: 0.7769
+Wife recall: 0.6352
+Wife fbeta: 0.6990
+
+
+Feature: relationship
+Class: Other-relative
+Other-relative precision: 0.8000
+Other-relative recall: 0.5714
+Other-relative fbeta: 0.6667
+
+
+Feature: race
+Class: White
+White precision: 0.7596
+White recall: 0.6628
+White fbeta: 0.7079
+
+
+Feature: race
+Class: Black
+Black precision: 0.7500
+Black recall: 0.6220
+Black fbeta: 0.6800
+
+
+Feature: race
+Class: Asian-Pac-Islander
+Asian-Pac-Islander precision: 0.7222
+Asian-Pac-Islander recall: 0.7358
+Asian-Pac-Islander fbeta: 0.7290
+
+
+Feature: race
+Class: Amer-Indian-Eskimo
+Amer-Indian-Eskimo precision: 1.0000
+Amer-Indian-Eskimo recall: 0.2857
+Amer-Indian-Eskimo fbeta: 0.4444
+
+
+Feature: race
+Class: Other
+Other precision: 0.8000
+Other recall: 0.6667
+Other fbeta: 0.7273
+
+
+Feature: sex
+Class: Female
+Female precision: 0.7797
+Female recall: 0.5610
+Female fbeta: 0.6525
+
+
+Feature: sex
+Class: Male
+Male precision: 0.7551
+Male recall: 0.6796
+Male fbeta: 0.7154
+
+
+Feature: native-country
+Class: United-States
+United-States precision: 0.7591
+United-States recall: 0.6542
+United-States fbeta: 0.7027
+
+
+Feature: native-country
+Class: South
+South precision: 0.3333
+South recall: 1.0000
+South fbeta: 0.5000
+
+
+Feature: native-country
+Class: Germany
+Germany precision: 0.8750
+Germany recall: 0.7000
+Germany fbeta: 0.7778
+
+
+Feature: native-country
+Class: ?
+? precision: 0.8929
+? recall: 0.8333
+? fbeta: 0.8621
+
+
+Feature: native-country
+Class: China
+China precision: 1.0000
+China recall: 0.7500
+China fbeta: 0.8571
+
+
+Feature: native-country
+Class: India
+India precision: 0.8333
+India recall: 0.8333
+India fbeta: 0.8333
+
+
+Feature: native-country
+Class: Mexico
+Mexico precision: 0.0000
+Mexico recall: 0.0000
+Mexico fbeta: 0.0000
+
+
+Feature: native-country
+Class: Philippines
+Philippines precision: 0.5385
+Philippines recall: 0.7000
+Philippines fbeta: 0.6087
+
+
+Feature: native-country
+Class: France
+France precision: 1.0000
+France recall: 0.5000
+France fbeta: 0.6667
+
+
+Feature: native-country
+Class: Ecuador
+Ecuador precision: 1.0000
+Ecuador recall: 1.0000
+Ecuador fbeta: 1.0000
+
+
+Feature: native-country
+Class: Taiwan
+Taiwan precision: 0.8333
+Taiwan recall: 1.0000
+Taiwan fbeta: 0.9091
+
+
+Feature: native-country
+Class: Canada
+Canada precision: 0.6667
+Canada recall: 0.6667
+Canada fbeta: 0.6667
+
+
+Feature: native-country
+Class: Thailand
+Thailand precision: 0.5000
+Thailand recall: 1.0000
+Thailand fbeta: 0.6667
+
+
+Feature: native-country
+Class: Columbia
+Columbia precision: 0.0000
+Columbia recall: 1.0000
+Columbia fbeta: 0.0000
+
+
+Feature: native-country
+Class: Vietnam
+Vietnam precision: 1.0000
+Vietnam recall: 1.0000
+Vietnam fbeta: 1.0000
+
+
+Feature: native-country
+Class: Greece
+Greece precision: 1.0000
+Greece recall: 0.7500
+Greece fbeta: 0.8571
+
+
+Feature: native-country
+Class: Outlying-US(Guam-USVI-etc)
+Outlying-US(Guam-USVI-etc) precision: 1.0000
+Outlying-US(Guam-USVI-etc) recall: 1.0000
+Outlying-US(Guam-USVI-etc) fbeta: 1.0000
+
+
+Feature: native-country
+Class: Dominican-Republic
+Dominican-Republic precision: 1.0000
+Dominican-Republic recall: 0.0000
+Dominican-Republic fbeta: 0.0000
+
+
+Feature: native-country
+Class: Honduras
+Honduras precision: 1.0000
+Honduras recall: 1.0000
+Honduras fbeta: 1.0000
+
+
+Feature: native-country
+Class: England
+England precision: 0.7273
+England recall: 0.7273
+England fbeta: 0.7273
+
+
+Feature: native-country
+Class: Italy
+Italy precision: 0.6667
+Italy recall: 0.6667
+Italy fbeta: 0.6667
+
+
+Feature: native-country
+Class: Peru
+Peru precision: 1.0000
+Peru recall: 1.0000
+Peru fbeta: 1.0000
+
+
+Feature: native-country
+Class: El-Salvador
+El-Salvador precision: 1.0000
+El-Salvador recall: 0.5000
+El-Salvador fbeta: 0.6667
+
+
+Feature: native-country
+Class: Puerto-Rico
+Puerto-Rico precision: 1.0000
+Puerto-Rico recall: 0.5000
+Puerto-Rico fbeta: 0.6667
+
+
+Feature: native-country
+Class: Haiti
+Haiti precision: 0.0000
+Haiti recall: 1.0000
+Haiti fbeta: 0.0000
+
+
+Feature: native-country
+Class: Ireland
+Ireland precision: 1.0000
+Ireland recall: 1.0000
+Ireland fbeta: 1.0000
+
+
+Feature: native-country
+Class: Nicaragua
+Nicaragua precision: 1.0000
+Nicaragua recall: 1.0000
+Nicaragua fbeta: 1.0000
+
+
+Feature: native-country
+Class: Portugal
+Portugal precision: 1.0000
+Portugal recall: 1.0000
+Portugal fbeta: 1.0000
+
+
+Feature: native-country
+Class: Cuba
+Cuba precision: 0.7143
+Cuba recall: 1.0000
+Cuba fbeta: 0.8333
+
+
+Feature: native-country
+Class: Iran
+Iran precision: 0.5714
+Iran recall: 0.8000
+Iran fbeta: 0.6667
+
+
+Feature: native-country
+Class: Hong
+Hong precision: 1.0000
+Hong recall: 1.0000
+Hong fbeta: 1.0000
+
+
+Feature: native-country
+Class: Jamaica
+Jamaica precision: 0.6667
+Jamaica recall: 0.5000
+Jamaica fbeta: 0.5714
+
+
+Feature: native-country
+Class: Poland
+Poland precision: 0.0000
+Poland recall: 0.0000
+Poland fbeta: 0.0000
+
+
+Feature: native-country
+Class: Japan
+Japan precision: 1.0000
+Japan recall: 0.8333
+Japan fbeta: 0.9091
+
+
+Feature: native-country
+Class: Guatemala
+Guatemala precision: 1.0000
+Guatemala recall: 1.0000
+Guatemala fbeta: 1.0000
+
+
+Feature: native-country
+Class: Laos
+Laos precision: 1.0000
+Laos recall: 1.0000
+Laos fbeta: 1.0000
+
+
+Feature: native-country
+Class: Scotland
+Scotland precision: 1.0000
+Scotland recall: 0.0000
+Scotland fbeta: 0.0000
+
+
+Feature: native-country
+Class: Yugoslavia
+Yugoslavia precision: 1.0000
+Yugoslavia recall: 0.0000
+Yugoslavia fbeta: 0.0000
+
+
+Feature: native-country
+Class: Trinadad&Tobago
+Trinadad&Tobago precision: 1.0000
+Trinadad&Tobago recall: 1.0000
+Trinadad&Tobago fbeta: 1.0000
+
+
+Feature: native-country
+Class: Cambodia
+Cambodia precision: 1.0000
+Cambodia recall: 1.0000
+Cambodia fbeta: 1.0000
+
+
