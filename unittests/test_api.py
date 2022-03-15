@@ -1,3 +1,17 @@
+import pytest
+from fastapi.testclient import TestClient
+from starter.main import app
+
+
+client = TestClient(app)
+
+
+@pytest.fixture()
+def client():
+    """Client for API testing"""
+    client = TestClient(app)
+    return client
+
 
 def test_welcome(client):
     r = client.get("/")
