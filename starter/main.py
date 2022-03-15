@@ -53,9 +53,9 @@ class DataItem(BaseModel):
         }
     }
 
-model = pickle.load(open("/nd0821-c3-starter-code/starter/model/model.pickle", "rb")) 
-encoder = pickle.load(open("/nd0821-c3-starter-code/starter/model/encoder.pickle", "rb")) 
-lb = pickle.load(open("/nd0821-c3-starter-code/starter/model/lb.pickle", "rb")) 
+model = pickle.load(open("./starter/model/model.pickle", "rb")) 
+encoder = pickle.load(open("./starter/model/encoder.pickle", "rb")) 
+lb = pickle.load(open("./starter/model/lb.pickle", "rb")) 
 
 cat_features = [
     "workclass",

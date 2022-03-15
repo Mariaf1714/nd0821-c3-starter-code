@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from .ml.model import train_model, compute_model_metrics, inference
+from starter.starter.ml.model import train_model, compute_model_metrics, inference
 
 @pytest.fixture
 def data():
