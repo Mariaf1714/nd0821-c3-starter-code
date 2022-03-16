@@ -1,6 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 from starter.main import app
+import json
 
 
 client = TestClient(app)
@@ -36,7 +37,7 @@ def test_positive_inference(client):
         'native-country': 'United-States',
         'salary': '<=50K'
     }
-    r = client.post("/inference", json=item)
+    r = client.post("/inference", data=json.dumps(item))
     assert r.status_code == 200
     assert r.json() == {"prediction": "<=50K"}
 
@@ -59,6 +60,6 @@ def test_negative_inference(client):
         'native-country': 'United-States',
         'salary': '>50K'
     }
-    r = client.post("/inference", json=item)
+    r = client.post("/inference", data=json.dumps(item))
     assert r.status_code == 200
     assert r.json() == {"prediction": ">50K"}
