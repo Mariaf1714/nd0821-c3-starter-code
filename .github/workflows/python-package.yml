@@ -39,6 +39,7 @@ jobs:
     - uses: iterative/setup-dvc@v1    
     - name: DVC pull
       run: |
+        dvc remote add myremote s3://udacity3bucket/storage/
         dvc pull --remote myremote
   
         
