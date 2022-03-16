@@ -23,6 +23,13 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-region: us-east-2
+        role-to-assume: arn:aws:iam::154804583687:user/udacityuser
+        role-session-name: udacityuser
+        
     - uses: iterative/setup-dvc@v1    
     - name: DVC pull
       run: |
