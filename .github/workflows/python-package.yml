@@ -22,28 +22,31 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Set up DVC
-      uses: iterative/setup-dvc@v1
+        
+    - uses: iterative/setup-dvc@v1    
+    - name: DVC pull
+      run: |
+        dvc pull --remote myremote
+  
+        
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        python -m pip install scikit-learn pandas numpy pytest jupyter jupyterlab fastapi flake8 xgboost
+        
     - name: Lint with flake8
       run: |
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
-      run: |
-        pytest
+        flake8 --ignore=E501,E402,E226,E231 .
+   
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-region: us-east-2
         role-to-assume: arn:aws:iam::154804583687:user/udacityuser
         role-session-name: udacityuser
+    - name: Test with pytest
+      run: |
+        pytest
 
 
 
