@@ -26,9 +26,9 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-region: us-east-2
-        role-to-assume: arn:aws:iam::154804583687:user/udacityuser
-        role-session-name: udacityuser
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    
         
     - uses: iterative/setup-dvc@v1    
     - name: DVC pull
