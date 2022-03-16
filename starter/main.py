@@ -8,11 +8,12 @@ from pydantic import BaseModel, Field
 
 import os
 
+# DVC on Heroku - required code
 if "DYNO" in os.environ and os.path.isdir(".dvc"):
-    print("Running DVC")
     os.system("dvc config core.no_scm true")
+    os.system("dvc remote add -d myremote s3://udacity3bucket/storage/")
     if os.system("dvc pull") != 0:
-        exit("Pull failed")
+        exit("dvc pull failed")
     os.system("rm -r .dvc .apt/usr/lib/dvc")
 
 
