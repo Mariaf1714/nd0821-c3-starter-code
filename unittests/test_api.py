@@ -19,6 +19,7 @@ def test_welcome(client):
     assert r.status_code == 200
     assert r.json() == {"greeting": "Welcome!"}
 
+
 def test_positive_inference(client):
     item = {
         'age': 38,

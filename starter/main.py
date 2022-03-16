@@ -16,7 +16,6 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
     os.system("rm -r .dvc .apt/usr/lib/dvc")
 
 
-
 model_pth = os.path.join(os.path.dirname(
     os.path.abspath(__file__)), 'model/model.pickle')
 encoder_pth = os.path.join(os.path.dirname(
@@ -60,8 +59,9 @@ class DataItem(BaseModel):
                 "hours-per-week": 40,
                 "native-country": "United-States",
                 "salary": "<=50K"
+            }
         }
-    }
+
 
 model = pickle.load(open(model_pth, 'rb'))
 encoder = pickle.load(open(encoder_pth, 'rb'))
@@ -82,20 +82,20 @@ cat_features = [
 app = FastAPI()
 
 # Define a GET on the specified endpoint.
+
+
 @app.get("/")
 async def say_welcome():
     return {"greeting": "Welcome!"}
 
+
 @app.post("/inference")
-async def inference(item =  DataItem):
+async def inference(item=DataItem):
     df = pd.DataFrame(item.dict(), index=[0])
 
     X_test, _, _, _ = process_data(
-        df, categorical_features=cat_features, label='salary', training=False, encoder=encoder, lb=lb
-    )
+        df, categorical_features=cat_features, label='salary', training=False, encoder=encoder, lb=lb)
 
     pred = lb.inverse_transform(inference(model, X_test))[0]
 
     return {"prediction": pred}
-
-

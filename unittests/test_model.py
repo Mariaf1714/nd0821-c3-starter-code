@@ -2,6 +2,7 @@ import pytest
 import pandas as pd
 from starter.starter.ml.model import train_model, compute_model_metrics, inference
 
+
 @pytest.fixture
 def data():
     """ Simple function to generate some fake Pandas data."""
@@ -18,7 +19,6 @@ def data():
     y_train = df["salary"][:2]
     X_test = df.iloc[2:, :3]
     y_test = df["salary"][2:]
-
 
     return X_train, y_train, X_test, y_test
 
@@ -74,15 +74,6 @@ def test_compute_model_metrics(data):
 
     precision, recall, fbeta = compute_model_metrics(y_test, preds)
 
-    assert 0.0 <= precision <=  1.0
-    assert 0.0 <= recall <=  1.0
-    assert 0.0 <= fbeta <=  1.0
-
-
-
-
-
-
-
-
-
+    assert 0.0 <= precision <= 1.0
+    assert 0.0 <= recall <= 1.0
+    assert 0.0 <= fbeta <= 1.0
