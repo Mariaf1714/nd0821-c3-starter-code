@@ -1,7 +1,7 @@
 # Put the code for your API here.
 import pickle
 import pandas as pd
-from .starter.ml import model
+from .starter.ml.model import inference
 from .starter.ml.data import process_data
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
@@ -89,13 +89,13 @@ async def say_welcome():
     return {"greeting": "Welcome!"}
 
 
-@app.post("/inference")
-async def inference(item=DataItem):
+@app.post("/predict")
+async def predict(item=DataItem):
     df = pd.DataFrame(item.dict(), index=[0])
 
     X_test, _, _, _ = process_data(
         df, categorical_features=cat_features, label='salary', training=False, encoder=encoder, lb=lb)
 
-    pred = lb.inverse_transform(model.inference(model, X_test))[0]
+    pred = lb.inverse_transform(inference(model, X_test))[0]
 
     return {"prediction": pred}

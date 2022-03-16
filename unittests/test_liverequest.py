@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://udacity3-prediction.herokuapp.com/inference"
+url = "https://udacity3-prediction.herokuapp.com/predict"
 
 payload = {
     'age': 34,

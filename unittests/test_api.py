@@ -38,7 +38,7 @@ def test_positive_inference(client):
         'native-country': 'United-States',
         'salary': '<=50K'
     }
-    r = client.post("/inference", data=json.dumps(item))
+    r = client.post("/predict", data=json.dumps(item))
     assert r.status_code == 200
     assert r.json() == {"prediction": "<=50K"}
 
@@ -61,6 +61,6 @@ def test_negative_inference(client):
         'native-country': 'United-States',
         'salary': '>50K'
     }
-    r = client.post("/inference", data=json.dumps(item))
+    r = client.post("/predict", data=json.dumps(item))
     assert r.status_code == 200
     assert r.json() == {"prediction": ">50K"}
