@@ -45,7 +45,7 @@ jobs:
         
     - name: Lint with flake8
       run: |
-        flake8 --ignore=E501,E402,E226,E231 .
+        flake8 --ignore=E501,E402,E226,E231,W504 .
    
 
     - name: Test with pytest
