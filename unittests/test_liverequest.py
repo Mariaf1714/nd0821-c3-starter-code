@@ -21,7 +21,7 @@ payload = {
     'salary': '<=50K'
 }
 
-r = requests.post(url, data=json.dumps(payload))
+r = requests.post(url, json=payload)
 
 print(f'Status code: {r.status_code}')
 assert r.status_code == 200

@@ -5,7 +5,6 @@ from .starter.ml.model import inference
 from .starter.ml.data import process_data
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
-
 import os
 
 # DVC on Heroku - required code
@@ -72,12 +71,12 @@ lb = pickle.load(open(lb_pth, 'rb'))
 cat_features = [
     "workclass",
     "education",
-    "marital-status",
+    "marital_status",
     "occupation",
     "relationship",
     "race",
     "sex",
-    "native-country",
+    "native_country",
 ]
 
 app = FastAPI()
@@ -91,8 +90,8 @@ async def say_welcome():
 
 
 @app.post("/predict")
-async def predict(item=DataItem):
-    df = pd.DataFrame(item, index=[0])
+async def predict(item: DataItem):
+    df = pd.DataFrame(item.dict(), index=[0])
 
     X_test, _, _, _ = process_data(
         df, categorical_features=cat_features, label='salary', training=False, encoder=encoder, lb=lb)

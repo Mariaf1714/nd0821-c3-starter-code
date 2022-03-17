@@ -1,7 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
 from starter.main import app
-import json
 
 
 client = TestClient(app)
@@ -22,11 +21,11 @@ def test_welcome(client):
 
 def test_positive_inference(client):
     item = {
-        'age': 38,
+        'age': 28,
         'workclass': 'Private',
         'fnlgt': 215646,
         'education': 'HS-grad',
-        'education-num': 9,
+        'education-num': 8,
         'marital-status': 'Divorced',
         'occupation': 'Handlers-cleaners',
         'relationship': 'Not-in-family',
@@ -34,11 +33,11 @@ def test_positive_inference(client):
         'sex': 'Male',
         'capital-gain': 0,
         'capital-loss': 0,
-        'hours-per-week': 40,
+        'hours-per-week': 20,
         'native-country': 'United-States',
         'salary': '<=50K'
     }
-    r = client.post("/predict", data=json.dumps(item))
+    r = client.post("/predict", json = item)
     assert r.status_code == 200
     assert r.json() == {"prediction": "<=50K"}
 
@@ -48,8 +47,8 @@ def test_negative_inference(client):
         'age': 52,
         'workclass': 'Self-emp-not-inc',
         'fnlgt': 209642,
-        'education': 'HS-grad',
-        'education-num': 9,
+        'education': 'Masters',
+        'education-num': 13,
         'marital-status': 'Married-civ-spouse',
         'occupation': 'Exec-managerial',
         'relationship': 'Husband',
@@ -61,6 +60,6 @@ def test_negative_inference(client):
         'native-country': 'United-States',
         'salary': '>50K'
     }
-    r = client.post("/predict", data=json.dumps(item))
+    r = client.post("/predict", json =item)
     assert r.status_code == 200
     assert r.json() == {"prediction": ">50K"}
