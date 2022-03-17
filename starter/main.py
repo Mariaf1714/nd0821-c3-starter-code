@@ -12,7 +12,7 @@ import os
 if "DYNO" in os.environ and os.path.isdir(".dvc"):
     os.system("dvc config core.no_scm true")
     os.system("dvc remote add -d myremote s3://udacity3bucket/storage/")
-    if os.system("dvc pull") != 0:
+    if os.system("dvc pull -r myremote") != 0:
         exit("dvc pull failed")
     os.system("rm -r .dvc .apt/usr/lib/dvc")
 
@@ -92,7 +92,7 @@ async def say_welcome():
 
 @app.post("/predict")
 async def predict(item=DataItem):
-    df = pd.DataFrame(item.dict(), index=[0])
+    df = pd.DataFrame(item), index=[0])
 
     X_test, _, _, _ = process_data(
         df, categorical_features=cat_features, label='salary', training=False, encoder=encoder, lb=lb)
