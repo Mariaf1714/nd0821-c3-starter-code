@@ -1,3 +1,10 @@
+######################################################
+# For sanitycheck.py comment out the following block.
+# Here testclient.py will be used.
+# For running sanitycheck.py type in : ../unittests/test_api.py
+# The following block is needed for pytest!
+
+
 import pytest
 from fastapi.testclient import TestClient
 from starter.main import app
@@ -11,6 +18,7 @@ def client():
     """Client for API testing"""
     client = TestClient(app)
     return client
+##########################################################
 
 
 def test_welcome(client):
