@@ -92,7 +92,7 @@ async def say_welcome():
 
 @app.post("/predict")
 async def predict(item=DataItem):
-    df = pd.DataFrame(item), index=[0])
+    df = pd.DataFrame(item, index=[0])
 
     X_test, _, _, _ = process_data(
         df, categorical_features=cat_features, label='salary', training=False, encoder=encoder, lb=lb)
